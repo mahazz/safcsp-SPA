@@ -151,7 +151,7 @@ a {
   position: relative;
 }
 .slider-content {
-  padding: 8px 16px 0;
+  padding: 8px 124px 0;
 }
 .news .news-item .news-img {
   width: 40%;
@@ -168,8 +168,8 @@ a {
 }
 .news .news-item h3 {
   font-size: 28px;
-  color: #000;
-  margin: 0;
+  font-weight: normal;
+  color: #333;
 }
 .news .news-item .quote-icon-left,
 .news .news-item .quote-icon-right {
@@ -189,8 +189,8 @@ a {
 }
 .news .news-item p {
   font-size: 24px;
-  color: #555555;
-  margin: 30px auto 15px auto;
+  font-weight: normal;
+  color: #555;
 }
 .news .swiper-pagination {
   margin-top: 20px;
