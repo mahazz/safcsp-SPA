@@ -1,21 +1,351 @@
 <!doctype html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>الاتحاد السعودي للأمن السيبراني والبرمجة والدرونز</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Font -->
+    <link href="//db.onlinewebfonts.com/c/2c458bc98aac2311643f30a231a7ea30?family=Helvetica+Neue+W23+for+SKY+Bd"
+        rel="stylesheet" type="text/css" />
+    <link href="assets/fonts/helveticaneuelt-arabic-55-roman.ttf">
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Swiper-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.2/swiper-bundle.min.css" rel="stylesheet">
     <!-- style-->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+                    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+                        <a href="#" class="logo mr-3">
+                            <img src="assets/images/Logo.svg" alt="" />
+                        </a>
+                        <div class="collapse navbar-collapse"></div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">عن الدرونز</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">الفعاليات</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">المتاجر</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">اندية الدرونز</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">اتصل بنا</a>
+                                </li>
 
+                            </ul>
+                            <button typle="button" href="#" class="btn primary-btn login-btn">تسجيل مستخدم</button>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero section -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-xl-9 align-items-center">
+                    <h1 class="mb-4 fs-9 fw-bold">مرحبا بكم في بوابة الدرونز</h1>
+                    <p class="mb-6 lead">تقدم البوابة العديد من الخدمات الفريدة<br class="d-none d-xl-block" />المهتمين
+                        بطائرات الدرونز</p>
+
+                    <div class="row g-2">
+                        <div class="col-6 col-sm-3 d-flex">
+                            <img src="./assets/images/Calendar.svg" alt="Calender Icon" />
+                            <div class="p-3 fs-5 text-light">الفعاليات</div>
+                        </div>
+                        <div class="col-6 col-sm-3 d-flex">
+                            <img src="./assets/images/suitcase.svg" alt="Calender Icon" />
+                            <div class="p-3 fs-5 text-light">التدريب</div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-6 col-sm-3 d-flex">
+                            <img src="./assets/images/Drone.svg" alt="Calender Icon" />
+                            <div class="p-3 fs-5 text-light">اندية الدرونز</div>
+                        </div>
+                        <div class="col-6 col-sm-3 d-flex">
+                            <img src="./assets/images/wallet.svg" alt="Calender Icon" />
+                            <div class="p-3 fs-5 text-light">المتاجر</div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-6 col-sm-3 d-flex">
+                            <img src="./assets/images/card.svg" alt="Calender Icon" />
+                            <div class="p-3 fs-5 text-light">العضويات</div>
+                        </div>
+                        <div class="col-6 col-sm-3 d-flex">
+                            <img src="./assets/images/Star.svg" alt="Calender Icon" />
+                            <div class="p-3 fs-5 text-light">الشهادات الاحترافية</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid"
+                        src="assets/images/Drone Big.svg" alt="" /></div>
+            </div>
+        </div>
+    </section>
+    <!-- News section -->
+    <section id="news" class="news d-flex flex-column justify-content-center">
+        <div class="container" data-aos="fade-up">
+            <div class="news-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="news-wrap">
+                            <div class="news-item d-flex">
+                                <h1>آخر الأخبار</h1>
+                                <br />
+                                <h3>«نقل الكهرباء» تطلق مشروع فحص الخطوط بواسطة «الدرون»</h3>
+                                <br />
+                                <p>
+                                    أطلقت الشركة الوطنية لنقل الكهرباء، التابعة للشركة السعودية للكهرباء، مشروع الفحص
+                                    الجوي المفصل لخطوط النقل الهوائية لجهد 380 ك.ف، بواسطة طائرة الدرون
+
+                                </p>
+                                <img src="assets/images/Mask Group 101.png" class="news-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="news-wrap">
+                            <div class="news-item d-flex">
+                                <h1>آخر الأخبار</h1>
+                                <br />
+                                <h3>«نقل الكهرباء» تطلق مشروع فحص الخطوط بواسطة «الدرون»</h3>
+                                <br />
+                                <p>
+                                    أطلقت الشركة الوطنية لنقل الكهرباء، التابعة للشركة السعودية للكهرباء، مشروع الفحص
+                                    الجوي المفصل لخطوط النقل الهوائية لجهد 380 ك.ف، بواسطة طائرة الدرون
+
+                                </p>
+                                <img src="assets/images/Mask Group 101.png" class="news-img" alt="">
+                            </div>
+                        </div>
+                    </div><!-- End news item -->
+
+                    <div class="swiper-slide">
+                        <div class="news-wrap">
+                            <div class="news-item d-flex">
+                                <h1>آخر الأخبار</h1>
+                                <br />
+                                <h3>«نقل الكهرباء» تطلق مشروع فحص الخطوط بواسطة «الدرون»</h3>
+                                <br />
+                                <p>
+                                    أطلقت الشركة الوطنية لنقل الكهرباء، التابعة للشركة السعودية للكهرباء، مشروع الفحص
+                                    الجوي المفصل لخطوط النقل الهوائية لجهد 380 ك.ف، بواسطة طائرة الدرون
+
+                                </p>
+                                <img src="assets/images/Mask Group 101.png" class="news-img" alt="">
+                            </div>
+                        </div>
+                    </div><!-- End news item -->
+
+                    <div class="swiper-slide">
+                        <div class="news-wrap">
+                            <div class="news-item d-flex">
+                                <h1>آخر الأخبار</h1>
+                                <br />
+                                <h3>«نقل الكهرباء» تطلق مشروع فحص الخطوط بواسطة «الدرون»</h3>
+                                <br />
+                                <p>
+                                    أطلقت الشركة الوطنية لنقل الكهرباء، التابعة للشركة السعودية للكهرباء، مشروع الفحص
+                                    الجوي المفصل لخطوط النقل الهوائية لجهد 380 ك.ف، بواسطة طائرة الدرون
+
+                                </p>
+                                <img src="assets/images/Mask Group 101.png" class="news-img" alt="">
+                            </div>
+                        </div>
+                    </div><!-- End news item -->
+
+                    <div class="swiper-slide">
+                        <div class="news-wrap">
+                            <div class="news-item d-flex">
+                                <h1>آخر الأخبار</h1>
+                                <br />
+                                <h3>«نقل الكهرباء» تطلق مشروع فحص الخطوط بواسطة «الدرون»</h3>
+                                <br />
+                                <p>
+                                    أطلقت الشركة الوطنية لنقل الكهرباء، التابعة للشركة السعودية للكهرباء، مشروع الفحص
+                                    الجوي المفصل لخطوط النقل الهوائية لجهد 380 ك.ف، بواسطة طائرة الدرون
+
+                                </p>
+                                <img src="assets/images/Mask Group 101.png" class="news-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Certificates section -->
+    <section id="certifictes" class="d-flex flex-column justify-content-start">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-xl-9 align-items-start">
+                    <h1 class="square-background mask">الشهادات الاحترافية</h1>
+                    <div class="description-background">
+                        <p class="mb-6 lead fs-3 text-light">هل تريد ان تحترف وتتعلم البرمجة والتحكم قي الدرونز ؟
+                            <br />
+                            <br class="d-none d-xl-block fs-4 pt-2 text-light" />تقدم من خلال البوابة على للحصول على
+                            شهادات
+                            احترافية في قطاع
+                            الدرونز
+                        </p>
+                        <a href="#" class="apply-btn"><span class="fs-4">تقدم الآن</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Store -->
+    <section id="store" class="d-flex flex-column justify-content-start">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="r-pattern right col-md-6 text-md-end py-6">
+                    <img class="pt-7 pt-md-0 img-fluid" src="assets/images/Image 26.png" alt="" />
+                    <h1 class="mb-4 fs-9 fw-bold">المتاجر</h1>
+                    <p class="mb-6 lead">تصفح المتجر الالكتروني لعرض أنواع الدرونز المرخصة بالإضافة الى قطع الغيار
+                        وإمكانية الشراء المباشر<br class="d-none d-xl-block" />المهتمين
+                        بطائرات الدرونز</p>
+                    <br />
+                    <a href="#" class="">تصفح المتاجر</a>
+
+                </div>
+                <div class="l-pattern left col-md-6 text-end">
+                    <img class="pt-7 pt-md-0 img-fluid" src="assets/images/Image 29.png" alt="" />
+                    <h1 class="mb-4 fs-9 fw-bold">اندية الدرونز</h1>
+                    <p class="mb-6 lead">معرفة النوادي المتاحة التي تسمح بتشغيل والتدرب على الدرونز حجز بالوقت والسعة
+                        المناسبة<br class="d-none d-xl-block" />المهتمين
+                        بطائرات الدرونز</p>
+                    <a href="#" class="">تصفح المتاجر</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Events -->
+    <section id="events" class="d-flex flex-column justify-content-start">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 align-items-center text-md-center">
+                    <h1 class="">الفعاليات القادمة</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Training -->
+    <section id="training" class="d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-xl-9 align-items-center">
+                    <h1 class="mb-4 text-light fw-bold">التدريب</h1>
+                    <div class="">
+                        <p class="mb-6 fs-3 text-light">هل تريد ان تحترف وتتعلم البرمجة والتحكم قي الدرونز ؟
+                            <br />
+                            <br class="d-none d-xl-block fs-4 pt-2 text-light" />اسعرض جدول تدريبات الدرونز من مقدمي
+                            الخدمة المعتمدين والتسجيل بالنوع والمستوى المناسب
+                        </p>
+                        <a href="#" class=""><span class="">جدول التدريبات</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Membership section -->
+    <section id="memership" class="d-flex flex-column justify-content-start">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="memership-background ol-xl-9 align-items-center">
+                    <img class="memership-image justify-items-center" src="./assets/images/Image 24.png" alt="" />
+
+                    <h1 class="">الشهادات الاحترافية</h1>
+                    <div class="">
+                        <p class="mb-6 lead fs-3 text-light">هل تريد ان تحترف وتتعلم البرمجة والتحكم قي الدرونز ؟
+                            <br />
+                            <br class="d-none d-xl-block fs-4 pt-2 text-light" />تقدم من خلال البوابة على للحصول على
+                            شهادات
+                            احترافية في قطاع
+                            الدرونز
+                        </p>
+                        <a href="#" class=""><span class="fs-4">تقدم الآن</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center text-white">
+        <div class="container">
+            <img class="footer-logo" src="./assets/images/Logo Center.svg" alt="logo" />
+            <div class="sq-footer">
+                <h1 class="fs-9">بوابة الدرونز</h1>
+            </div>
+            <ul class="list-unstyled mb-0 justify-content-center">
+                <li class="mb-1"><a class="text-decoration-none" href="#">عن الدرونز</a></li>
+                <li class="mb-1"><a class="text-decoration-none" href="#">الفعاليات</a></li>
+                <li class="mb-1"><a class="text-decoration-none" href="#">اندية الدرونز</a>
+                </li>
+                <li class="mb-1"><a class="text-decoration-none" href="#">المتاجر</a>
+                </li>
+                <li class="mb-1"><a class="text-decoration-none" href="#">اتصل بنا</a>
+                </li>
+            </ul>
+
+            <!-- Section: Social media -->
+            <div class="social-links text-center text-md-center pt-3 pt-md-0">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright text-center">
+            <a>شروط الاستخدام | سياسة الخصوصية</a>
+            <br />
+            <br />
+            <p> جميع الحقوق محفوظة - الاتحاد السعودي للأمن السيبراني والبرمجة والدرونز © 2020</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.2/swiper-bundle.min.js"></script>
+    <!-- App JS-->
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
