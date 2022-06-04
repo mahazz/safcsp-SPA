@@ -150,6 +150,9 @@ a {
   min-height: 200px;
   position: relative;
 }
+.slider-content {
+  padding: 8px 16px 0;
+}
 .news .news-item .news-img {
   width: 40%;
   border-radius: 10px;
