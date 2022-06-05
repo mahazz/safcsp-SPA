@@ -192,6 +192,10 @@ a {
   font-weight: normal;
   color: #555;
 }
+.news .news-item p {
+  font-size: 19px;
+  color: #9f9f9f !important;
+}
 .news .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -223,6 +227,11 @@ a {
   margin-top: 131px;
   z-index: 997;
 }
+.certificate-header {
+  position: absolute;
+  right: 0;
+  z-index: 20;
+}
 .square-background {
   background-color: #00aeb6;
   border-radius: 20px;
@@ -241,13 +250,15 @@ a {
 #certifictes .description-background {
   position: absolute;
   top: 22%;
+  right: 22%;
   width: 487px;
   height: 480px;
   color: #ffffff;
-  padding: 49px;
+  padding: 76px 49px;
   background: #000000;
   border-radius: 20px;
   opacity: 0.66;
+  z-index: 10;
 }
 .apply-btn {
   padding: 12px 36px 12px 36px;
